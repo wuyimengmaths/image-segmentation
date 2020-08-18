@@ -1,0 +1,9 @@
+1.图1-4为干净的MRI图，可在网站http://brainweb.bic.mni.mcgill.ca/.上下载。
+
+
+2.图bias1，bias2，bias3，bias4为偏移场，使用生成偏移场程序
+
+
+3.图MRI1,MRI2,MRI3,MRI4是灰度不均匀的MRI图，作为输入图片。图MRI1=图1.*图bias1，依次。
+
+

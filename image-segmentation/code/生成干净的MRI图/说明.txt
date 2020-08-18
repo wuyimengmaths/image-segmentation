@@ -1,0 +1,18 @@
+1.从网站http://brainweb.bic.mni.mcgill.ca/.上下载 数据
+
+2.filename='data\t1_icbm_normal_1mm_pn0_rf0.rawb';
+  M=rawb_transform(filename);          %转换格式
+
+3.A=M(:,:,100); %A=uint8(A);        %代表不同的切片
+
+4.本文所用MRI切片类型
+
+分别为：
+
+A=M(:,:,100);
+
+A=M(:,:,95);
+
+A=M(:,:,102);
+
+A=M(:,:,105);
